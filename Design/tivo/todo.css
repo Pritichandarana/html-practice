@@ -1,0 +1,545 @@
+body {
+  background-color: rgb(188, 188, 207);
+  height: 2500px;
+}
+.blue {
+  position: sticky;
+  width: 250px;
+  background-color: rgb(3, 3, 24);
+}
+.navbar {
+  width: 80%;
+  margin: auto;
+}
+.sub {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  left: -90px;
+}
+.logo {
+  margin: 2px;
+  display: flex;
+}
+.sub1 {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  left: 80px;
+}
+.search {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+}
+.maindiv {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+}
+.mainblue {
+  display: flex;
+  margin: auto;
+}
+.h6 {
+  text-align: center;
+  position: relative;
+  top: -24px;
+  left: 30px;
+  font-size: 10px;
+  color: white;
+}
+.dis {
+  display: flex;
+  height: 50px;
+}
+.fontf5 {
+  font-size: larger;
+  color: blue;
+}
+.search1 {
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+.seconddiv {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -1790px;
+  left: -50px;
+}
+.h5fo {
+  position: relative;
+  top: 10px;
+}
+.sub2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  position: relative;
+  left: 200px;
+}
+.a {
+  background-color: white;
+  /* padding-top: 30px; */
+  /* padding-left: 20px; */
+  height: 400px;
+  position: relative;
+  top: -1780px;
+  left: 224px;
+  width: 240px;
+  border-radius: 4%;
+}
+.b {
+  display: flex;
+  gap: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.imgb {
+  height: 30px;
+  width: 40px;
+  border-radius: 50%;
+}
+.mark {
+  font-weight: 550;
+  font-size: 17px;
+}
+.mail {
+  color: gray;
+  font-size: 13px;
+}
+.todo {
+  background-color: rgb(133, 133, 238);
+  color: white;
+  height: 30px;
+  width: 200px;
+  display: flex;
+  gap: 1px;
+  margin: 10px;
+  position: relative;
+  left: 10px;
+}
+.imgtask {
+  height: 20px;
+  width: 15px;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+.todo p {
+  margin-top: 5px;
+}
+.alltask {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+  position: relative;
+  left: px;
+}
+.alltask img {
+  height: 30px;
+  width: 25px;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+.alltask p {
+  margin-top: 12px;
+  color: gray;
+  font-size: 14px;
+}
+.completed {
+  height: 30px;
+  width: 165px;
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+  position: relative;
+  left: px;
+}
+.completed img {
+  height: 30px;
+  width: 25px;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+.completed p {
+  margin-top: 12px;
+  color: gray;
+  font-size: 14px;
+}
+.parentc {
+  display: flex;
+}
+.servo p {
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 20px;
+  padding-left: 9px;
+  margin-top: 21px;
+}
+.pending {
+  height: 30px;
+  width: 165px;
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+  position: relative;
+  left: px;
+}
+.pending img {
+  height: 30px;
+  width: 25px;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+.pending p {
+  margin-top: 12px;
+  color: gray;
+  font-size: 14px;
+}
+.parentc {
+  display: flex;
+}
+.pen p {
+  background-color: rgb(221, 54, 152);
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 20px;
+  padding-left: 9px;
+  margin-top: 21px;
+}
+.process {
+  height: 30px;
+  width: 165px;
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+  position: relative;
+  left: px;
+}
+.process img {
+  height: 30px;
+  width: 25px;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+.process p {
+  margin-top: 12px;
+  color: gray;
+  font-size: 14px;
+}
+.parentc {
+  display: flex;
+}
+.pro p {
+  background-color: rgb(91, 162, 228);
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 20px;
+  padding-left: 9px;
+  margin-top: 21px;
+}
+.dlt {
+  height: 30px;
+  width: 200px;
+  display: flex;
+  gap: 20px;
+  margin: 10px;
+  position: relative;
+  left: px;
+}
+.dlt img {
+  height: 30px;
+  width: 25px;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+.dlt p {
+  margin-top: 12px;
+  color: gray;
+  font-size: 14px;
+}
+/* blind  */
+.blind {
+  background-color: white;
+  height: 790px;
+  width: 840px;
+  position: relative;
+  top: -2171px;
+  left: 491px;
+  border-radius: 5%;
+}
+.maindivblind input {
+  height: 48px;
+  width: 670px;
+
+  margin: 38px;
+}
+.tytext {
+  display: flex;
+}
+.addtask {
+  background-color: rgb(78, 78, 199);
+  color: white;
+  height: 52px;
+  width: 100px;
+  position: relative;
+  top: 38px;
+  left: -10px;
+  text-align: center;
+}
+.pera1 p {
+  color: gray;
+}
+.icons1 {
+  display: flex;
+  gap: 10px;
+}
+.mainperag {
+  display: flex;
+  gap: 220px;
+}
+.pera1 {
+  position: relative;
+  left: 70px;
+}
+.pera1img {
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+}
+.dltimg {
+  margin: 10px;
+  height: 20px;
+  width: 30px;
+}
+.icons1 p {
+  color: gray;
+  font-size: 13px;
+}
+/* second pera  */
+.pera2 p {
+  color: gray;
+}
+.icons2 {
+  display: flex;
+  gap: 10px;
+}
+.mainperag2 {
+  display: flex;
+  gap: 220px;
+}
+.pera2 {
+  position: relative;
+  left: 70px;
+}
+.pera2img {
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+}
+.dlt2img {
+  margin: 10px;
+  height: 20px;
+  width: 30px;
+}
+.icons2 p {
+  color: gray;
+  font-size: 13px;
+}
+/* third div  */
+.pera3 p {
+  color: gray;
+}
+.icons3 {
+  display: flex;
+  gap: 10px;
+}
+.mainperag3 {
+  display: flex;
+  gap: 228px;
+}
+.pera3 {
+  position: relative;
+  left: 70px;
+}
+.pera3img {
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+}
+.dlt3img {
+  margin: 10px;
+  height: 20px;
+  width: 30px;
+}
+.icons3 p {
+  color: gray;
+  font-size: 13px;
+}
+/* forth pera  */
+.pera4 p {
+  color: gray;
+}
+.icons4 {
+  display: flex;
+  gap: 10px;
+}
+.mainperag4 {
+  display: flex;
+  gap: 239px;
+}
+.pera4 {
+  position: relative;
+  left: 70px;
+}
+.pera4img {
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+}
+.dlt4img {
+  margin: 10px;
+  height: 20px;
+  width: 30px;
+}
+.icons4 p {
+  color: gray;
+  font-size: 13px;
+}
+/* fifth pera  */
+.pera5 p {
+  color: gray;
+}
+.icons5 {
+  display: flex;
+  gap: 10px;
+}
+.mainperag5 {
+  display: flex;
+  gap: 220px;
+}
+.pera5 {
+  position: relative;
+  left: 70px;
+}
+.pera5img {
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+}
+.dlt5img {
+  margin: 10px;
+  height: 20px;
+  width: 30px;
+}
+.icons5 p {
+  color: gray;
+  font-size: 13px;
+}
+/* six pera  */
+.pera6 p {
+  color: gray;
+}
+.icons6 {
+  display: flex;
+  gap: 10px;
+}
+.mainperag6 {
+  display: flex;
+  gap: 306px;
+}
+.pera6 {
+  position: relative;
+  left: 70px;
+}
+.pera6img {
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+}
+.dlt6img {
+  margin: 10px;
+  height: 20px;
+  width: 30px;
+}
+.icons6 p {
+  color: gray;
+  font-size: 13px;
+}
+/* seven pera  */
+.pera7 p {
+  color: gray;
+}
+.icons7 {
+  display: flex;
+  gap: 10px;
+}
+.mainperag7 {
+  display: flex;
+  gap: 267px;
+}
+.pera7 {
+  position: relative;
+  left: 70px;
+}
+.pera7img {
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+}
+.dlt7img {
+  margin: 10px;
+  height: 20px;
+  width: 30px;
+}
+.icons7 p {
+  color: gray;
+  font-size: 13px;
+}
+/* eight pera  */
+.pera8 p {
+  color: gray;
+}
+.icons8 {
+  display: flex;
+  gap: 10px;
+}
+.mainperag8 {
+  display: flex;
+  gap: 327px;
+}
+.pera8 {
+  position: relative;
+  left: 70px;
+}
+.pera8img {
+  height: 30px;
+  width: 60px;
+  margin: 10px;
+}
+.dlt8img {
+  margin: 10px;
+  height: 20px;
+  width: 30px;
+}
+.icons8 p {
+  color: gray;
+  font-size: 13px;
+}

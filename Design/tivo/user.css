@@ -1,0 +1,764 @@
+body {
+  background-color: rgb(188, 188, 207);
+  height: 350px;
+}
+.blue {
+  position: sticky;
+  width: 250px;
+  background-color: rgb(3, 3, 24);
+}
+.navbar {
+  width: 80%;
+  margin: auto;
+}
+.sub {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  left: -90px;
+}
+.logo {
+  margin: 2px;
+  display: flex;
+}
+.sub1 {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  left: 80px;
+}
+.search {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+}
+.maindiv {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+}
+.mainblue {
+  display: flex;
+  margin: auto;
+}
+.h6 {
+  text-align: center;
+  position: relative;
+  top: -24px;
+  left: 30px;
+  font-size: 10px;
+  color: white;
+}
+.dis {
+  display: flex;
+  height: 50px;
+}
+.fontf5 {
+  font-size: larger;
+  color: blue;
+}
+.search1 {
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+.seconddiv {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -1805px;
+}
+.h5fo {
+  position: relative;
+  top: 10px;
+}
+.sub2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  position: relative;
+  left: 200px;
+}
+/* image part  */
+.bcimg {
+  background-image: url(./IMAGES/tivo/bg-profile.jpg);
+  height: 400px;
+  width: 1100px;
+  position: relative;
+  top: -1770px;
+  left: 220px;
+  border-radius: 5%;
+}
+.inner {
+  position: relative;
+  top: 50px;
+  background-color: white;
+  height: 330px;
+  width: 350px;
+  left: 50px;
+  border-radius: 4%;
+}
+
+.imgcl {
+  height: 60px;
+  width: 60px;
+  border-radius: 40%;
+  position: relative;
+  left: 150px;
+  top: 30px;
+}
+.h4inn {
+  text-align: center;
+  position: relative;
+  top: 5px;
+  font-size: 25px;
+}
+.pinn {
+  color: gray;
+  text-align: center;
+  position: relative;
+  font-size: 15px;
+  top: -17px;
+}
+.subinn {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  left: 90px;
+}
+.iconinn {
+  height: 20px;
+  width: 20px;
+}
+.innlst {
+  display: flex;
+  gap: 50px;
+  position: relative;
+  left: 85px;
+}
+.h4sub {
+  font-size: 20px;
+}
+.innlst1 {
+  display: flex;
+  gap: 38px;
+  position: relative;
+  left: 55px;
+  top: -40px;
+}
+.h4sub1 {
+  font-size: 15px;
+  color: gray;
+  position: relative;
+  top: 5px;
+}
+/* about me */
+.aboutme {
+  height: 655px;
+  width: 400px;
+  position: relative;
+  top: -1750px;
+  left: 230px;
+  border-radius: 4%;
+  background-color: white;
+}
+.h4abt {
+  position: relative;
+  left: 30px;
+  font-size: 20px;
+  top: 20px;
+}
+.abticon {
+  height: 30px;
+  width: 30px;
+}
+.uxicon {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+.diabout {
+  margin-top: -9px;
+  padding-top: 10px;
+}
+.abouthead {
+  font-weight: 550;
+  font-size: 19px;
+}
+.about_icon {
+  padding-left: 20px;
+}
+/* 2 icon  */
+.abticonst {
+  height: 30px;
+  width: 30px;
+}
+.sticon {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+.diaboutst {
+  margin-top: -9px;
+  padding-top: 10px;
+}
+.aboutheadst {
+  font-weight: 550;
+  font-size: 19px;
+}
+.aboutst_icon {
+  padding-left: 20px;
+}
+/* 3 icon  */
+
+.reicon {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+.abticonre {
+  height: 30px;
+  width: 30px;
+}
+.diaboutre {
+  margin-top: -9px;
+  padding-top: 10px;
+}
+.aboutheadre {
+  font-weight: 550;
+  font-size: 19px;
+}
+.aboutre_icon {
+  padding-left: 20px;
+}
+/* 4 icon  */
+.liicon {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+.abticonli {
+  height: 30px;
+  width: 30px;
+}
+.diaboutli {
+  margin-top: -9px;
+  padding-top: 10px;
+}
+.aboutheadli {
+  font-weight: 550;
+  font-size: 19px;
+}
+.aboutli_icon {
+  padding-left: 20px;
+}
+/* 5 icon  */
+.blicon {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+.abticonbl {
+  height: 30px;
+  width: 30px;
+}
+.diaboutbl {
+  margin-top: -9px;
+  padding-top: 10px;
+}
+.aboutheadbl {
+  font-weight: 550;
+  font-size: 19px;
+}
+.aboutbl_icon {
+  padding-left: 20px;
+}
+/* buttons  */
+.h4so {
+  padding-left: 20px;
+}
+.facebook {
+  background-color: rgb(73, 73, 158);
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  padding-left: 30px;
+  margin-left: 30px;
+}
+.fac {
+  height: 20px;
+  width: 20px;
+  padding-left: 78px;
+  padding-top: 7px;
+}
+.facebook span {
+  color: white;
+  font-size: 15px;
+  font-weight: 550;
+}
+.twitter {
+  background-color: rgb(71, 178, 185);
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  padding-left: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.tw {
+  height: 20px;
+  width: 20px;
+  padding-left: 78px;
+  padding-top: 7px;
+}
+.twitter span {
+  color: white;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.dribbble {
+  background-color: rgb(231, 40, 65);
+  height: 40px;
+  width: 300px;
+  border-radius: 10px;
+  padding-left: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.dr {
+  height: 20px;
+  width: 20px;
+  padding-left: 78px;
+  padding-top: 7px;
+}
+.dribbble span {
+  color: white;
+  font-size: 15px;
+  font-weight: 550;
+}
+/* 2 image part   */
+.divimg {
+  height: 655px;
+  width: 651px;
+  position: relative;
+  top: -2405px;
+  left: 660px;
+  border-radius: 4%;
+  background-color: white;
+}
+.imgdiv {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.divcon {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.divphoto {
+  display: flex;
+}
+.photodi {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.headspan {
+  font-weight: 550;
+  font-size: 20px;
+}
+.he2 {
+  color: gray;
+  font-size: 15 px;
+}
+/* image  */
+.imagediv {
+  background-image: url(./IMAGES/tivo/post1.jpg);
+  height: 200px;
+  width: 620px;
+  border-radius: 3%;
+  margin-left: 10px;
+}
+/* icon and comment  */
+.headpart {
+  display: flex;
+  gap: 15px;
+}
+.imgset {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.img1 {
+  height: 25px;
+  width: 30px;
+  border-radius: 50%;
+}
+.img2 {
+  height: 25px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: -17px;
+}
+.img3 {
+  height: 25px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: -17px;
+}
+.commentpart {
+  margin-top: 34px;
+}
+.commentpart span {
+  color: gray;
+}
+/* paregraph  */
+.spanph {
+  color: gray;
+}
+.pera {
+  margin-top: 30px;
+  padding-left: 30px;
+}
+.likecmt {
+  display: flex;
+  gap: 10px;
+  padding-left: 25px;
+  margin-top: 20px;
+}
+.likesp {
+  color: gray;
+}
+/* Followers  */
+.foll {
+  background-color: white;
+  height: 430px;
+  width: 400px;
+  border-radius: 4%;
+  position: relative;
+  top: -2370px;
+  left: 232px;
+}
+.follospan {
+  padding-left: 20px;
+  position: relative;
+  top: 10px;
+}
+.imgdiv1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.divcon1 {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.divphoto1 {
+  display: flex;
+}
+.photodi1 {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.headspan1 {
+  font-weight: 550;
+  font-size: 15px;
+}
+.he21 {
+  color: gray;
+  font-size: 10 px;
+}
+/* following  */
+.folli {
+  background-color: white;
+  height: 410px;
+  width: 400px;
+  border-radius: 4%;
+  position: relative;
+  top: -2350px;
+  left: 232px;
+}
+.folliospan {
+  padding-left: 20px;
+  position: relative;
+  top: 20px;
+}
+.imgdiv10 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.divcon10 {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.divphotoo {
+  display: flex;
+}
+.photodi10 {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.headspan10 {
+  font-weight: 550;
+  font-size: 15px;
+}
+.he210 {
+  color: gray;
+  font-size: 10 px;
+}
+/* 3 img part  */
+.divimgg {
+  height: 500px;
+  width: 651px;
+  position: relative;
+  top: -3200px;
+  left: 660px;
+  border-radius: 4%;
+  background-color: white;
+}
+.imgdiv4 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.divcon4 {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.divphoto4 {
+  display: flex;
+}
+.photodi4 {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.headspan44 {
+  font-weight: 550;
+  font-size: 20px;
+}
+.he2 {
+  color: gray;
+  font-size: 15 px;
+}
+
+.imgpart {
+  display: flex;
+  gap: 10px;
+}
+
+.imagediv1 {
+  background-image: url(./IMAGES/tivo/post2.jpg);
+  height: 180px;
+  width: 300px;
+  border-radius: 3%;
+  margin-left: 10px;
+}
+.imagediv2 {
+  background-image: url(./IMAGES/tivo/post3.jpg);
+  height: 180px;
+  width: 300px;
+  border-radius: 3%;
+  margin-left: 10px;
+}
+/* icon and comment  */
+.headpart {
+  display: flex;
+  gap: 15px;
+}
+.imgset {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.img1 {
+  height: 25px;
+  width: 30px;
+  border-radius: 50%;
+}
+.img2 {
+  height: 25px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: -17px;
+}
+.img3 {
+  height: 25px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: -17px;
+}
+.commentpart {
+  margin-top: 34px;
+}
+.commentpart span {
+  color: gray;
+}
+/* paregraph  */
+.spanph {
+  color: gray;
+}
+.pera {
+  margin-top: 30px;
+  padding-left: 30px;
+}
+.likecmt {
+  display: flex;
+  gap: 10px;
+  padding-left: 25px;
+  margin-top: 20px;
+}
+.likesp {
+  color: gray;
+}
+/* 4 img part  */
+.divimg4 {
+  height: 530px;
+  width: 651px;
+  position: relative;
+  top: -3183px;
+  left: 660px;
+  border-radius: 4%;
+  background-color: white;
+}
+.imgdiv4 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.divcon4 {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.divphoto4 {
+  display: flex;
+}
+.photodi4 {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.headspan4 {
+  font-weight: 550;
+  font-size: 20px;
+}
+.he24 {
+  color: gray;
+  font-size: 15 px;
+}
+/* image  */
+.imagediv {
+  background-image: url(./IMAGES/tivo/post1.jpg);
+  height: 200px;
+  width: 620px;
+  border-radius: 3%;
+  margin-left: 10px;
+}
+/* icon and comment  */
+.headpart {
+  display: flex;
+  gap: 15px;
+}
+.imgset {
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.img1 {
+  height: 25px;
+  width: 30px;
+  border-radius: 50%;
+}
+.img2 {
+  height: 25px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: -17px;
+}
+.img3 {
+  height: 25px;
+  width: 30px;
+  border-radius: 50%;
+  margin-left: -17px;
+}
+.commentpart {
+  margin-top: 34px;
+}
+.commentpart span {
+  color: gray;
+}
+/* paregraph  */
+.spanph {
+  color: gray;
+}
+.pera {
+  margin-top: 30px;
+  padding-left: 30px;
+}
+.likecmt {
+  display: flex;
+  gap: 10px;
+  padding-left: 25px;
+  margin-top: 20px;
+}
+.likesp {
+  color: gray;
+}
+/* latest post */
+.latsp {
+  padding-left: 20px;
+  position: relative;
+  top: 10px;
+}
+.hrcl {
+  margin-top: 18px;
+}
+.lat {
+  background-color: white;
+  height: 200px;
+  width: 342px;
+  padding-left: 30px;
+  position: relative;
+  top: -3346px;
+  left: 238px;
+  border-radius: 8%;
+}
+.imgcell {
+  display: flex;
+  margin-top: 10px;
+  gap: 5px;
+}
+.imgcls {
+  height: 50px;
+  width: 70px;
+  border-radius: 20%;
+}
+/* friends  */
+.friends {
+  background-color: white;
+  height: 200px;
+  width: 342px;
+  padding-left: 30px;
+  position: relative;
+  top: -3346px;
+  left: 238px;
+  border-radius: 8%;
+}
+.frih4 {
+  padding-top: 10px;
+}
+.friimg {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.imgfri {
+  height: 40px;
+  width: 40px;
+  padding-left: 10px;
+  border-radius: 50%;
+}

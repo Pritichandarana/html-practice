@@ -1,0 +1,230 @@
+body {
+  background-color: rgb(188, 188, 207);
+  height: 5000px;
+}
+.blue {
+  position: sticky;
+  width: 250px;
+  background-color: rgb(3, 3, 24);
+}
+.navbar {
+  width: 80%;
+  margin: auto;
+}
+.sub {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  left: -90px;
+}
+.logo {
+  margin: 2px;
+  display: flex;
+}
+.sub1 {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  left: 80px;
+}
+.search {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+}
+.maindiv {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+}
+.mainblue {
+  display: flex;
+  margin: auto;
+}
+.h6 {
+  text-align: center;
+  position: relative;
+  top: -24px;
+  left: 30px;
+  font-size: 10px;
+  color: white;
+}
+.dis {
+  display: flex;
+  height: 50px;
+}
+.fontf5 {
+  font-size: larger;
+  color: blue;
+}
+.search1 {
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+/* product part */
+.seconddiv {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -1805px;
+}
+.h5fo {
+  position: relative;
+  top: 10px;
+}
+.sub2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  position: relative;
+  left: 200px;
+}
+/* Icons part */
+.mainico {
+  width: 1221px;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  position: relative;
+  top: -1800px;
+
+  left: 70px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+.word {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+.icimg {
+  height: 35px;
+}
+.ibtn {
+  background-color: rgb(215, 228, 233);
+  height: 30px;
+  position: relative;
+  top: 6px;
+  color: blue;
+  left: 120px;
+  border: none;
+}
+.h4i {
+  position: relative;
+  left: 100px;
+}
+/* photo part */
+.photo {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -1770px;
+  left: 225px;
+  width: fit-content;
+  gap: 34px;
+}
+
+.pricesp {
+  color: gray;
+  position: relative;
+  top: -38px;
+  left: 113px;
+}
+.ph {
+  height: 250px;
+  width: 250px;
+  border-radius: 5%;
+}
+.dis1 {
+  height: 32px;
+  width: 47px;
+  text-align: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  position: relative;
+  top: -432px;
+}
+.dis2 {
+  height: 32px;
+  width: 47px;
+  text-align: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+  position: relative;
+  top: -432px;
+  left: 200px;
+}
+.phsub {
+  background-color: white;
+  height: fit-content;
+  border-radius: 5%;
+  height: 400px;
+}
+.h1p {
+  position: relative;
+  left: 10px;
+}
+.pri {
+  position: relative;
+  left: 10px;
+  top: -10px;
+}
+.price {
+  color: blue;
+  position: relative;
+  top: -5px;
+  left: 10px;
+}
+/* second line */
+.photo1 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -1770px;
+  left: 225px;
+  width: fit-content;
+  gap: 34px;
+  margin-top: 30px;
+}
+/* third line */
+.photo2 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -1770px;
+  left: 225px;
+  width: fit-content;
+  gap: 34px;
+  margin-top: 30px;
+}
+/* forth line */
+.photo3 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -1770px;
+  left: 225px;
+  width: fit-content;
+  gap: 34px;
+  margin-top: 30px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  top: -300px;
+  background-color: white;
+}

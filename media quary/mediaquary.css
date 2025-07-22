@@ -1,0 +1,138 @@
+.first_div {
+  border: 1px solid gray;
+  background-color: rgb(53, 214, 214);
+  margin: 20px;
+  padding: 10px;
+  color: blue;
+}
+.main_div {
+  display: flex;
+  /* flex-wrap: wrap; */
+
+  justify-content: space-around;
+}
+/* .first_div {
+  flex: 25%;
+  padding: 20px;
+} */
+/* @media (max-width: 1600px) {
+  .first_div {
+    background-color: rgb(170, 158, 169) !important;
+    border: 10px solid white !important;
+    margin: 10px !important;
+  }
+  .first_div {
+    flex: 25%;
+  }
+   .main_div {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; 
+} */
+
+ @media (max-width: 1440px) {
+  .first_div {
+    background-color: rgb(172, 202, 124) !important;
+    border: 10px solid white !important;
+    margin: 30px !important;
+    color: brown;
+  }
+  .main_div {
+    display: flex;
+    justify-content: space-around;
+  }
+} 
+ @media (max-width: 1280px) {
+  .first_div {
+    background-color: rgb(7, 18, 177) !important;
+    border: 10px solid white !important;
+    margin: 10px !important;
+    color: white !important;
+  }
+  .main_div {
+    display: flex;
+    justify-content: space-around;
+  }
+} 
+ @media (max-width: 1024px) {
+  .first_div {
+    background-color: rgb(13, 209, 55) !important;
+    border: 10px solid white !important;
+    margin: 10px !important;
+  }
+  .main_div {
+    display: flex;
+    justify-content: space-around;
+  }
+} */
+ /* @media (max-width: 991px) {
+  .first_div {
+    background-color: rgb(12, 231, 231) !important;
+    border: 10px solid white !important;
+    margin: 10px !important;
+    color: white;
+    font-weight: 700;
+  }
+  .first_div {
+    flex: 50%;
+  }
+  .main_div {
+    display: flex;
+    flex-wrap: wrap;
+  } 
+}*/
+ @media (max-width: 767px) {
+  .first_div {
+    background-color: rgb(178, 189, 22) !important;
+    border: 10px solid white !important;
+    margin: 10px !important;
+  }
+  .main_div {
+    display: flex;
+    width: 300px;
+  }
+} 
+ @media (max-width: 567px) {
+  .first_div {
+    background-color: rgb(173, 28, 35) !important;
+    border: 10px solid white !important;
+    margin: 10px !important;
+  }
+  .main_div {
+    display: flex;
+    flex-direction: column;
+  }
+} 
+ @media (max-width: 375px) {
+  .first_div {
+    background-color: rgb(7, 136, 153) !important;
+    border: 10px solid white !important;
+    margin: 10px !important;
+  }
+  .main_div {
+    display: flex;
+    flex-direction: column;
+  }
+} 
+ @media (max-width: 360px) {
+  .first_div {
+    background-color: rgb(20, 148, 31) !important;
+    border: 10px solid white !important;
+    margin: 10px !important;
+  }
+  .main_div {
+    display: flex;
+    flex-direction: column;
+  }
+} 
+ @media (max-width: 320px) {
+  .first_div {
+    background-color: blueviolet !important;
+    border: 10px solid white;
+    margin: 10px;
+  }
+  .main_div {
+    display: flex;
+    flex-direction: column;
+  }
+} 

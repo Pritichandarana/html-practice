@@ -1,0 +1,283 @@
+body {
+  background-color: rgb(188, 188, 207);
+  height: 5000px;
+}
+.blue {
+  position: sticky;
+  width: 250px;
+  background-color: rgb(3, 3, 24);
+}
+.navbar {
+  width: 80%;
+  margin: auto;
+}
+.sub {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  left: -90px;
+}
+.logo {
+  margin: 2px;
+  display: flex;
+}
+.sub1 {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  left: 80px;
+}
+.search {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+}
+.maindiv {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+}
+.mainblue {
+  display: flex;
+  margin: auto;
+}
+.h6 {
+  text-align: center;
+  position: relative;
+  top: -24px;
+  left: 30px;
+  font-size: 10px;
+  color: white;
+}
+.dis {
+  display: flex;
+  height: 50px;
+}
+.fontf5 {
+  font-size: larger;
+  color: blue;
+}
+.search1 {
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+/* product part */
+.seconddiv {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -1805px;
+}
+.h5fo {
+  position: relative;
+  top: 10px;
+}
+.sub2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  position: relative;
+  left: 200px;
+}
+/* product details  */
+.mainpart1 {
+  background-color: white;
+  position: relative;
+  top: -1802px;
+  left: 230px;
+  height: 760px;
+  width: 506px;
+  border-radius: 4%;
+  pad: 2px;
+  padding: 2%;
+}
+.h2s {
+  position: relative;
+  left: 20px;
+}
+
+.submain {
+  border: 1px solid black;
+  border-radius: 4%;
+  position: relative;
+  left: 30px;
+  padding: 5px;
+  height: 271px;
+  width: 448px;
+}
+.sub22 {
+  border: 1px solid black;
+  border-radius: 4%;
+  position: relative;
+  left: 30px;
+  width: 400px;
+  height: 50px;
+  color: gray;
+}
+.inn {
+  display: flex;
+  gap: 40px;
+}
+.inn1 {
+  display: flex;
+  gap: 137px;
+}
+.ftn {
+  position: relative;
+  top: -14px;
+}
+.brand {
+  border: 1px solid black;
+  border-radius: 4%;
+  position: relative;
+  left: 30px;
+  width: 150px;
+  height: 30px;
+  color: gray;
+}
+.color {
+  border: 1px solid black;
+  border-radius: 4%;
+  position: relative;
+  left: 30px;
+  width: 100px;
+  height: 30px;
+  color: gray;
+}
+.submain1 {
+  border: 1px solid black;
+  border-radius: 4%;
+  position: relative;
+  left: 30px;
+  padding: 5px;
+  height: 331px;
+  width: 448px;
+}
+.sub23 {
+  border: 1px solid black;
+  border-radius: 4%;
+  position: relative;
+  left: 30px;
+  width: 400px;
+  height: 50px;
+  color: gray;
+}
+/* product img */
+.productimg {
+  position: relative;
+  top: -2633px;
+  left: 812px;
+  background-color: white;
+  height: 810px;
+  border-radius: 4%;
+  width: 507px;
+}
+.des {
+  border: 2px dashed blue;
+  height: 250px;
+  width: 400px;
+  position: relative;
+  left: 50px;
+  border-radius: 2%;
+
+  background-color: rgb(229, 230, 247);
+}
+.cloud {
+  height: 30px;
+  width: 20px;
+  position: relative;
+  left: 190px;
+  top: 30px;
+}
+.cloudh4 {
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.pcl {
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.sub22 {
+  border: 1px solid black;
+  border-radius: 4%;
+  position: relative;
+  left: 30px;
+  width: 348px;
+  height: 50px;
+  color: gray;
+}
+.inns {
+  display: flex;
+  gap: 40px;
+}
+.inn12 {
+  display: flex;
+  gap: 200px;
+}
+.ftn {
+  position: relative;
+  top: -14px;
+}
+.h4c {
+  position: relative;
+  left: 20px;
+}
+.sizec {
+  border: 1px solid black;
+  height: 230px;
+  width: 400px;
+  position: relative;
+  left: 30px;
+  border-radius: 4%;
+}
+.size {
+  border: 1px solid black;
+  border-radius: 4%;
+  position: relative;
+  left: 30px;
+  width: 150px;
+  height: 30px;
+  color: gray;
+}
+.date {
+  border: 1px solid black;
+  border-radius: 4%;
+  position: relative;
+  left: 30px;
+  width: 100px;
+  height: 30px;
+  color: gray;
+}
+.btnf {
+  background-color: rgb(47, 47, 207);
+  color: white;
+  height: 40px;
+  width: 100px;
+  position: relative;
+  left: 288px;
+  border-radius: 20%;
+  border: none;
+  top: 100px;
+}
+.btnf2 {
+  background-color: rgb(201, 169, 29);
+  color: white;
+  height: 40px;
+  width: 100px;
+  position: relative;
+  left: 300px;
+  border: none;
+  top: 100px;
+  border-radius: 20%;
+}

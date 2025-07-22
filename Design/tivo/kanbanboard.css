@@ -1,0 +1,1030 @@
+body {
+  background-color: rgb(188, 188, 207);
+  height: 2000px;
+}
+.blue {
+  position: sticky;
+  width: 250px;
+  background-color: rgb(3, 3, 24);
+}
+.navbar {
+  width: 80%;
+  margin: auto;
+}
+.sub {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  left: -90px;
+}
+.logo {
+  margin: 2px;
+  display: flex;
+}
+.sub1 {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  left: 80px;
+}
+.search {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+}
+.maindiv {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+}
+.mainblue {
+  display: flex;
+  margin: auto;
+}
+.h6 {
+  text-align: center;
+  position: relative;
+  top: -24px;
+  left: 30px;
+  font-size: 10px;
+  color: white;
+}
+.dis {
+  display: flex;
+  height: 50px;
+}
+.fontf5 {
+  font-size: larger;
+  color: blue;
+}
+.search1 {
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+/* Kanban Board */
+.seconddiv {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -1805px;
+}
+.h5fo {
+  position: relative;
+  top: 10px;
+}
+.sub2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  position: relative;
+  left: 200px;
+}
+/* Default kanban */
+.dk {
+  height: 700px;
+  width: 1070px;
+  border-radius: 5%;
+  position: relative;
+  background-color: white;
+  top: -1785px;
+  left: 244px;
+}
+.h2de {
+  position: relative;
+  left: 30px;
+  top: 10px;
+  padding: 10px;
+}
+.td {
+  background-color: rgb(192, 192, 235);
+  height: 500px;
+  width: 300px;
+  border-radius: 4%;
+  position: relative;
+  left: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.h4todo {
+  font-size: larger;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.h6todo {
+  position: relative;
+  top: -10px;
+  left: 13px;
+  color: lightgray;
+  height: fit-content;
+}
+
+.firto {
+  background-color: white;
+  display: flex;
+  border-radius: 9%;
+  height: 166px;
+  width: 260px;
+  position: relative;
+  left: 17px;
+  top: 18px;
+}
+.dp {
+  position: relative;
+  top: 20px;
+  left: -81px;
+  height: fit-content;
+  width: 30px;
+}
+.btnto {
+  top: 10px;
+  color: white;
+  background-color: rgb(97, 97, 184);
+  height: fit-content;
+  border: none;
+  border-radius: 26%;
+  position: relative;
+  left: 158px;
+}
+.dp1 {
+  height: 30px;
+  width: 124px;
+}
+.dp2 {
+  position: relative;
+  left: 5px;
+  top: -10px;
+}
+.imgto {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.theme {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -105px;
+  height: fit-content;
+  /* width: 200px; */
+}
+.imgcmt {
+  height: 32px;
+  width: 219px;
+  position: relative;
+  top: 119px;
+  left: -262px;
+}
+/* second part todo */
+.h6todo {
+  position: relative;
+  top: -10px;
+  left: 13px;
+  color: lightgray;
+  height: fit-content;
+}
+
+.dp0 {
+  position: relative;
+  top: 20px;
+  left: -81px;
+  height: fit-content;
+  width: 30px;
+}
+
+.dp10 {
+  position: relative;
+  left: 15px;
+  height: 30px;
+  width: 124px;
+}
+.dp20 {
+  position: relative;
+  left: 5px;
+  top: -10px;
+}
+.imgto {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.theme1 {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -90px;
+  height: fit-content;
+  /* width: 200px; */
+}
+.imgcmt11 {
+  height: 34px;
+  width: 235px;
+  position: relative;
+  top: 119px;
+  left: -257px;
+}
+.firto2 {
+  background-color: white;
+  display: flex;
+  border-radius: 9%;
+  height: 166px;
+  width: 260px;
+  position: relative;
+  left: 45px;
+  top: -224px;
+}
+.btnto1 {
+  top: 10px;
+  color: white;
+  background-color: red;
+  height: fit-content;
+  border: none;
+  border-radius: 26%;
+  position: relative;
+  left: 158px;
+}
+/* 2 part  */
+.doing {
+  background-color: rgb(192, 192, 235);
+  height: 500px;
+  width: 300px;
+  border-radius: 4%;
+  position: relative;
+  left: 345px;
+  margin: 10px;
+  padding: 10px;
+  top: -709px;
+}
+
+.h4todo1 {
+  font-size: larger;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.h6todo1 {
+  position: relative;
+  top: -10px;
+  left: 13px;
+  color: lightgray;
+  height: fit-content;
+}
+
+.firdoing {
+  background-color: white;
+  display: flex;
+  border-radius: 9%;
+  height: 166px;
+  width: 260px;
+  position: relative;
+  left: 17px;
+  top: 20px;
+}
+.dping {
+  position: relative;
+  top: 20px;
+  left: -81px;
+  height: fit-content;
+  width: 30px;
+}
+.btndoing {
+  top: 10px;
+  color: white;
+  background-color: rgb(233, 75, 149);
+  height: fit-content;
+  border: none;
+  border-radius: 26%;
+  position: relative;
+  left: 158px;
+}
+.dp1ing {
+  height: 30px;
+  width: 124px;
+}
+.dp2ing {
+  position: relative;
+  left: 5px;
+  top: -10px;
+}
+.imgdoing {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.themedoing {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -105px;
+  height: fit-content;
+  /* width: 200px; */
+}
+.imgcimg {
+  height: 32px;
+  width: 219px;
+  position: relative;
+  top: 119px;
+  left: -262px;
+}
+/* second part doing */
+.h6todo1 {
+  position: relative;
+  top: -10px;
+  left: 13px;
+  color: lightgray;
+  height: fit-content;
+}
+
+.dp01 {
+  position: relative;
+  top: 20px;
+  left: -81px;
+  height: fit-content;
+  width: 30px;
+}
+
+.dp100 {
+  position: relative;
+  left: 32px;
+  height: 30px;
+  width: 124px;
+}
+.dp200 {
+  position: relative;
+  left: 5px;
+  top: -10px;
+}
+.imgdo {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.theme12 {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -83px;
+  height: fit-content;
+  /* width: 200px; */
+}
+.imgcg {
+  height: 34px;
+  width: 235px;
+  position: relative;
+  top: 119px;
+  left: -244px;
+}
+.firdoing1 {
+  background-color: white;
+  display: flex;
+  border-radius: 9%;
+  height: 166px;
+  width: 260px;
+  position: relative;
+  left: 382px;
+  top: -928px;
+}
+.btndoing1 {
+  top: 10px;
+  color: white;
+  background-color: rgb(63, 192, 80);
+  height: fit-content;
+  border: none;
+  border-radius: 26%;
+  position: relative;
+  left: 158px;
+}
+/* 3 part */
+.done {
+  background-color: rgb(192, 192, 235);
+  height: 500px;
+  width: 300px;
+  border-radius: 4%;
+  position: relative;
+  left: 696px;
+  margin: 10px;
+  padding: 10px;
+  top: -1416px;
+}
+
+.h4do {
+  font-size: larger;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.h6do {
+  position: relative;
+  top: -10px;
+  left: 13px;
+  color: lightgray;
+  height: fit-content;
+}
+
+.firdo {
+  background-color: white;
+  display: flex;
+  border-radius: 9%;
+  height: 166px;
+  width: 260px;
+  position: relative;
+  left: 17px;
+  top: 20px;
+}
+.dp0 {
+  position: relative;
+  top: 20px;
+  left: -81px;
+  height: fit-content;
+  width: 30px;
+}
+.btndo {
+  top: 10px;
+  color: white;
+  background-color: rgb(233, 75, 149);
+  height: fit-content;
+  border: none;
+  border-radius: 26%;
+  position: relative;
+  left: 158px;
+}
+.dpo {
+  height: 30px;
+  width: 124px;
+}
+.dpdo {
+  position: relative;
+  left: 5px;
+  top: -10px;
+}
+.imgdo {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.themedo {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -105px;
+  height: fit-content;
+  /* width: 200px; */
+}
+.imgdone {
+  height: 32px;
+  width: 219px;
+  position: relative;
+  top: 119px;
+  left: -262px;
+}
+/* second part doing */
+.h6done {
+  position: relative;
+  top: -10px;
+  left: 13px;
+  color: lightgray;
+  height: fit-content;
+}
+
+.dpdone {
+  position: relative;
+  top: 20px;
+  left: -81px;
+  height: fit-content;
+  width: 30px;
+}
+
+.dpdone1 {
+  position: relative;
+  left: 32px;
+  height: 30px;
+  width: 124px;
+}
+.dp0done {
+  position: relative;
+  left: 5px;
+  top: -10px;
+}
+.imgdone1 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.themedone {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -83px;
+  height: fit-content;
+  /* width: 200px; */
+}
+.imgcg2 {
+  height: 34px;
+  width: 235px;
+  position: relative;
+  top: 119px;
+  left: -244px;
+}
+.firdone {
+  background-color: white;
+  display: flex;
+  border-radius: 9%;
+  height: 166px;
+  width: 260px;
+  position: relative;
+  left: 737px;
+  top: -1635px;
+}
+.btndone1 {
+  top: 10px;
+  color: white;
+  background-color: rgb(63, 192, 80);
+  height: fit-content;
+  border: none;
+  border-radius: 26%;
+  position: relative;
+  left: 158px;
+}
+/* custom board  */
+.cb {
+  height: 700px;
+  width: 1070px;
+  border-radius: 5%;
+  position: relative;
+  background-color: white;
+  top: -1785px;
+  left: 244px;
+}
+.cbp {
+  position: relative;
+  left: 40px;
+}
+.h2cb {
+  position: relative;
+  left: 30px;
+  top: 10px;
+  padding: 10px;
+}
+.tdcb {
+  background-color: rgb(192, 192, 235);
+  height: 500px;
+  width: 300px;
+  border-radius: 4%;
+  position: relative;
+  left: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.h4cb {
+  font-size: larger;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.h6tocb {
+  position: relative;
+  top: -10px;
+  left: 13px;
+  color: lightgray;
+  height: fit-content;
+}
+
+.firtocb {
+  background-color: white;
+  display: flex;
+  border-radius: 9%;
+  height: 166px;
+  width: 260px;
+  position: relative;
+  left: 17px;
+  top: 18px;
+}
+.dpcb {
+  position: relative;
+  top: 20px;
+  left: -81px;
+  height: fit-content;
+  width: 30px;
+}
+.btntocb {
+  top: 10px;
+  color: white;
+  background-color: rgb(79, 79, 168);
+  height: fit-content;
+  border: none;
+  border-radius: 26%;
+  position: relative;
+  left: 158px;
+}
+.dp1cb {
+  height: 30px;
+  width: 124px;
+}
+.dp2cb {
+  position: relative;
+  left: 5px;
+  top: -10px;
+}
+.imgtocb {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.themecb {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -105px;
+  height: fit-content;
+  /* width: 200px; */
+}
+.imgcb {
+  height: 32px;
+  width: 219px;
+  position: relative;
+  top: 119px;
+  left: -266px;
+}
+/* second part todo */
+.h6todocb {
+  position: relative;
+  top: -10px;
+  left: 13px;
+  color: lightgray;
+  height: fit-content;
+}
+
+.dp0cb {
+  position: relative;
+  top: 20px;
+  left: -81px;
+  height: fit-content;
+  width: 30px;
+}
+
+.dp10cb {
+  position: relative;
+  left: 15px;
+  height: 30px;
+  width: 124px;
+}
+.dp20cb {
+  position: relative;
+  left: 5px;
+  top: -10px;
+}
+.imgto0 {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.theme1cb {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -90px;
+  height: fit-content;
+  /* width: 200px; */
+}
+.imgcb1 {
+  height: 34px;
+  width: 235px;
+  position: relative;
+  top: 119px;
+  left: -257px;
+}
+.firtocb2 {
+  background-color: white;
+  display: flex;
+  border-radius: 9%;
+  height: 166px;
+  width: 260px;
+  position: relative;
+  left: 45px;
+  top: -224px;
+}
+.btncbt {
+  top: 10px;
+  color: white;
+  background-color: red;
+  height: fit-content;
+  border: none;
+  border-radius: 26%;
+  position: relative;
+  left: 158px;
+}
+/* 2 part  */
+.doingg {
+  background-color: rgb(230, 202, 49);
+  height: 500px;
+  width: 300px;
+  border-radius: 4%;
+  position: relative;
+  left: 345px;
+  margin: 10px;
+  padding: 10px;
+  top: -709px;
+}
+
+.h4too {
+  font-size: larger;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.h6too {
+  position: relative;
+  top: -10px;
+  left: 13px;
+  color: lightgray;
+  height: fit-content;
+}
+
+.firdoingg {
+  background-color: white;
+  display: flex;
+  border-radius: 9%;
+  height: 166px;
+  width: 260px;
+  position: relative;
+  left: 17px;
+  top: 20px;
+}
+.dpingg {
+  position: relative;
+  top: 20px;
+  left: -81px;
+  height: fit-content;
+  width: 30px;
+}
+.btndoingg {
+  top: 10px;
+  color: white;
+  background-color: rgb(233, 75, 149);
+  height: fit-content;
+  border: none;
+  border-radius: 26%;
+  position: relative;
+  left: 158px;
+}
+.dp1ingg {
+  height: 30px;
+  position: relative;
+  width: 124px;
+  left: 11px;
+}
+.dp2inng {
+  position: relative;
+  left: 5px;
+  top: -10px;
+}
+.imgdoinng {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.themedoingg {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -105px;
+  height: fit-content;
+  /* width: 200px; */
+}
+.imgccimg {
+  height: 32px;
+  width: 219px;
+  position: relative;
+  top: 119px;
+  left: -262px;
+}
+/* second part doing */
+.h6tg1 {
+  position: relative;
+  top: -10px;
+  left: 13px;
+  color: lightgray;
+  height: fit-content;
+}
+
+.dpdd {
+  position: relative;
+  top: 20px;
+  left: -81px;
+  height: fit-content;
+  width: 30px;
+}
+
+.dpd1 {
+  position: relative;
+  left: 32px;
+  height: 30px;
+  width: 124px;
+}
+.dp2g {
+  position: relative;
+  left: 5px;
+  top: -10px;
+}
+.imgg {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.themeg {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -83px;
+  height: fit-content;
+  /* width: 200px; */
+}
+.imgcgg {
+  height: 34px;
+  width: 235px;
+  position: relative;
+  top: 119px;
+  left: -244px;
+}
+.firdoingg1 {
+  background-color: white;
+  display: flex;
+  border-radius: 9%;
+  height: 166px;
+  width: 260px;
+  position: relative;
+  left: 382px;
+  top: -928px;
+}
+.btndd {
+  top: 10px;
+  color: white;
+  background-color: rgb(63, 192, 80);
+  height: fit-content;
+  border: none;
+  border-radius: 26%;
+  position: relative;
+  left: 158px;
+}
+/* 3 part */
+.done1 {
+  background-color: rgb(77, 231, 116);
+  height: 500px;
+  width: 300px;
+  border-radius: 4%;
+  position: relative;
+  left: 696px;
+  margin: 10px;
+  padding: 10px;
+  top: -1416px;
+}
+
+.h4do1 {
+  font-size: larger;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+.h6do1 {
+  position: relative;
+  top: -10px;
+  left: 13px;
+  color: lightgray;
+  height: fit-content;
+}
+
+.firdo1 {
+  background-color: white;
+  display: flex;
+  border-radius: 9%;
+  height: 166px;
+  width: 260px;
+  position: relative;
+  left: 17px;
+  top: 20px;
+}
+.dp0d {
+  position: relative;
+  top: 20px;
+  left: -81px;
+  height: fit-content;
+  width: 30px;
+}
+.btndoo {
+  top: 10px;
+  color: white;
+  background-color: rgb(233, 75, 149);
+  height: fit-content;
+  border: none;
+  border-radius: 26%;
+  position: relative;
+  left: 158px;
+}
+.dpod {
+  height: 30px;
+  width: 124px;
+}
+.dpdos {
+  position: relative;
+  left: 5px;
+  top: -10px;
+}
+.imgdos {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.themedos {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -105px;
+  height: fit-content;
+  /* width: 200px; */
+}
+.imgdones {
+  height: 32px;
+  width: 219px;
+  position: relative;
+  top: 119px;
+  left: -262px;
+}
+/* second part doing */
+.h6dones {
+  position: relative;
+  top: -10px;
+  left: 13px;
+  color: lightgray;
+  height: fit-content;
+}
+
+.dpdones {
+  position: relative;
+  top: 20px;
+  left: -81px;
+  height: fit-content;
+  width: 30px;
+}
+
+.dpdone1s {
+  position: relative;
+  left: 32px;
+  height: 30px;
+  width: 124px;
+}
+.dp0dones {
+  position: relative;
+  left: 5px;
+  top: -10px;
+}
+.imgdone1s {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.themedones {
+  display: flex;
+  position: relative;
+  top: 70px;
+  left: -83px;
+  height: fit-content;
+  /* width: 200px; */
+}
+.imgcg2s {
+  height: 34px;
+  width: 235px;
+  position: relative;
+  top: 119px;
+  left: -244px;
+}
+.firdones {
+  background-color: white;
+  display: flex;
+  border-radius: 9%;
+  height: 166px;
+  width: 260px;
+  position: relative;
+  left: 737px;
+  top: -1635px;
+}
+.btndone1s {
+  top: 10px;
+  color: white;
+  background-color: rgb(63, 192, 80);
+  height: fit-content;
+  border: none;
+  border-radius: 26%;
+  position: relative;
+  left: 158px;
+}

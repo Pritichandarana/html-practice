@@ -1,0 +1,486 @@
+body {
+  background-color: rgb(188, 188, 207);
+  height: 2300px;
+}
+.blue {
+  position: sticky;
+  width: 250px;
+  background-color: rgb(3, 3, 24);
+}
+.navbar {
+  width: 80%;
+  margin: auto;
+}
+.sub {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  left: -90px;
+}
+.logo {
+  margin: 2px;
+  display: flex;
+}
+.sub1 {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  left: 80px;
+}
+.search {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+}
+.maindiv {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+}
+.mainblue {
+  display: flex;
+  margin: auto;
+}
+.h6 {
+  text-align: center;
+  position: relative;
+  top: -24px;
+  left: 30px;
+  font-size: 10px;
+  color: white;
+}
+.dis {
+  display: flex;
+  height: 50px;
+}
+.fontf5 {
+  font-size: larger;
+  color: blue;
+}
+.search1 {
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+.seconddiv {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -1805px;
+}
+.h5fo {
+  position: relative;
+  top: 10px;
+}
+.sub2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  position: relative;
+  left: 200px;
+}
+/* stat  div 1 */
+.firstgen {
+  background-color: white;
+  height: 111px;
+  width: 237px;
+  position: relative;
+  top: -1800px;
+  border-radius: 10px;
+  left: 230px;
+  display: flex;
+  padding-top: 20px;
+  gap: 86px;
+}
+.de {
+  position: relative;
+  left: 10px;
+}
+.de p {
+  background-color: rgb(162, 177, 201);
+  color: blue;
+}
+.fe img {
+  padding-top: 16px;
+}
+/* div2  */
+.firstgen1 {
+  background-color: white;
+  height: 111px;
+  width: 229px;
+  position: relative;
+  top: -1930px;
+  border-radius: 10px;
+  left: 515px;
+  display: flex;
+  padding-top: 20px;
+  gap: 86px;
+}
+.de1 {
+  position: relative;
+  left: 10px;
+}
+.de1 p {
+  background-color: rgb(212, 230, 212);
+  color: rgb(27, 182, 53);
+}
+.fe1 img {
+  padding-top: 16px;
+}
+/* div3  */
+.firstgen2 {
+  background-color: white;
+  height: 111px;
+  width: 229px;
+  position: relative;
+  top: -2062px;
+  border-radius: 10px;
+  left: 793px;
+  display: flex;
+  padding-top: 20px;
+  gap: 86px;
+}
+.de2 {
+  position: relative;
+  left: 10px;
+}
+.de2 p {
+  background-color: rgb(233, 232, 194);
+  color: rgb(230, 210, 38);
+}
+.fe2 img {
+  padding-top: 16px;
+}
+/* div 4 */
+.firstgen3 {
+  background-color: white;
+  height: 111px;
+  width: 229px;
+  position: relative;
+  top: -2193px;
+  border-radius: 10px;
+  left: 1070px;
+  display: flex;
+  padding-top: 20px;
+  gap: 86px;
+}
+.de3 {
+  position: relative;
+  left: 10px;
+}
+.de3 p {
+  background-color: rgb(178, 192, 209);
+  color: rgb(92, 121, 201);
+}
+.fe3 img {
+  padding-top: 16px;
+}
+/* sale detail  */
+.sale {
+  background-color: white;
+  height: 400px;
+  width: 507px;
+  position: relative;
+  top: -2164px;
+  left: 233px;
+  border-radius: 10px;
+}
+.sale h3 {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.subsale {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid rgb(185, 185, 185);
+  height: 130px;
+  width: 215px;
+  gap: 60px;
+  position: relative;
+  left: 20px;
+}
+.subgh {
+  position: relative;
+  top: 35px;
+}
+.saleh4 {
+  position: relative;
+  color: gray;
+  top: 14px;
+  left: 30px;
+}
+.saleh {
+  position: relative;
+  left: 30px;
+}
+.saleh2 {
+  position: relative;
+  top: -17px;
+  color: blue;
+}
+.salee {
+  position: relative;
+  top: -17px;
+  color: rgb(199, 168, 68);
+}
+.sal {
+  position: relative;
+  top: -17px;
+  color: rgb(95, 168, 52);
+}
+.sa {
+  position: relative;
+  top: -17px;
+  color: rgb(182, 43, 119);
+}
+.maintop {
+  display: flex;
+  gap: 30px;
+}
+/* order detail  */
+.order {
+  background-color: white;
+  height: 400px;
+  width: 507px;
+  position: relative;
+  top: -2580px;
+  left: 793px;
+  border-radius: 10px;
+}
+
+.order h3 {
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.subsale1 {
+  display: flex;
+  border-radius: 10px;
+  border: 1px solid rgb(185, 185, 185);
+  height: 130px;
+  width: 215px;
+  gap: 60px;
+  position: relative;
+  left: 20px;
+}
+.subgh1 {
+  position: relative;
+  top: 35px;
+}
+.saleh41 {
+  position: relative;
+  color: gray;
+  top: 14px;
+  left: 2px;
+}
+.saleh1 {
+  position: relative;
+  left: 2px;
+}
+.saleh21 {
+  position: relative;
+  top: -17px;
+  color: blue;
+}
+.salee1 {
+  position: relative;
+  top: -17px;
+  color: rgb(199, 168, 68);
+}
+.sal1 {
+  position: relative;
+  top: -17px;
+  color: rgb(95, 168, 52);
+}
+.sa1 {
+  position: relative;
+  top: -17px;
+  color: rgb(182, 43, 119);
+}
+.maintop1 {
+  display: flex;
+  gap: 30px;
+}
+/* clock part  */
+.cel {
+  background-image: url(IMAGES/tivo/wallpaper.jpg);
+  height: 373px;
+  width: 1056px;
+  position: relative;
+  top: 100px;
+  right: 556px;
+  border-radius: 10px;
+}
+.mainclock {
+  display: flex;
+}
+.we {
+  display: flex;
+  gap: 30px;
+  color: white;
+}
+.weather {
+  display: flex;
+  gap: 330px;
+  height: fit-content;
+  padding-left: 20px;
+  padding-top: 51px;
+  border-bottom: 1px solid gray;
+}
+.weather1 {
+  display: flex;
+  gap: 330px;
+  height: fit-content;
+  /* padding-right: 700px; */
+  padding-top: 150px;
+  border-bottom: 1px solid gray;
+  position: relative;
+  right: 533px;
+}
+.weather2 {
+  display: flex;
+  gap: 330px;
+  height: fit-content;
+  /* padding-right: 700px; */
+  padding-top: 260px;
+  /* border-bottom: 1px solid gray; */
+  position: relative;
+  right: 1060px;
+}
+.we img {
+  height: 50px;
+  width: 50px;
+}
+.clock img {
+  padding-left: 33px;
+  padding-top: 35px;
+}
+.we1 h2 {
+  color: white;
+}
+
+.calender {
+  background-color: white;
+  height: 400px;
+  width: 507px;
+  position: relative;
+  top: 128px;
+  right: 557px;
+  border-radius: 10px;
+}
+.calender img {
+  padding-left: 20px;
+  padding-top: 35px;
+}
+.feedback {
+  background-color: white;
+  height: 400px;
+  width: 507px;
+  position: relative;
+  bottom: 273px;
+  right: 10px;
+  border-radius: 10px;
+}
+
+.imgfeed img {
+  padding-left: 190px;
+  padding-top: 20px;
+}
+.imgfeed h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.imgfeed p {
+  text-align: center;
+  color: gray;
+  font-size: 20px;
+}
+.value {
+  display: flex;
+  gap: 100px;
+}
+.pos {
+  height: fit-content;
+  width: fit-content;
+  padding-right: 102px;
+  position: relative;
+  left: 40px;
+  padding-left: 42px;
+  border-right: 1px solid gray;
+}
+
+.pos h4 {
+  color: gray;
+  font-size: 20px;
+}
+.pos p {
+  color: green;
+  position: relative;
+  bottom: 18px;
+}
+.neg {
+  padding-right: 30px;
+  width: fit-content;
+}
+
+.neg h4 {
+  color: gray;
+  font-size: 20px;
+}
+.neg p {
+  color: rgb(212, 62, 180);
+  position: relative;
+  bottom: 18px;
+}
+/* profile  */
+.profilemain {
+  background-color: white;
+  height: 450px;
+  width: 370px;
+  position: relative;
+  top: -1702px;
+  left: 241px;
+  border-radius: 10px;
+}
+.profileimg {
+  padding-left: 120px;
+}
+.profilemain h3 {
+  text-align: center;
+}
+.profilemain p {
+  text-align: center;
+  color: gray;
+  padding-bottom: 30px;
+}
+.social {
+  display: flex;
+  padding-left: 86px;
+}
+/* recentview  */
+.recentemain {
+  background-color: white;
+  height: 400px;
+  width: 370px;
+  position: relative;
+  bottom: 300px;
+  /* left: 500px; */
+  border-radius: 10px;
+}
+/* second profile  */
+.profile2emain {
+  background-color: white;
+  height: 400px;
+  width: 370px;
+  position: relative;
+  /* bottom: 229px; */
+  right: 300px;
+  border-radius: 10px;
+}

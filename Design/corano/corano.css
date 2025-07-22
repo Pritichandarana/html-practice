@@ -1,0 +1,59 @@
+.subf {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  left: 1000px;
+  top: -60px;
+}
+.first {
+  width: fit-content;
+  height: fit-content;
+  /* border-bottom: 1px solid lightgray; */
+}
+.hr {
+  position: relative;
+  top: -62px;
+}
+.second {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -42px;
+}
+.subs {
+  display: flex;
+  gap: 20px;
+}
+.thirddiv {
+  display: flex;
+  justify-content: space-around;
+}
+.search {
+  border: none;
+  /* border-radius: 10px solid white; */
+}
+.img {
+  height: 40px;
+  width: 100px;
+}
+.imgsecond {
+  height: fit-content;
+  width: 1330px;
+}
+.forthdiv {
+  display: flex;
+  justify-content: space-around;
+}
+.h2 {
+  text-align: center;
+  font-size: 35px;
+}
+.pera {
+  text-align: center;
+}
+.fifthdiv {
+  position: relative;
+  left: 550px;
+  display: flex;
+  gap: 20px;
+}

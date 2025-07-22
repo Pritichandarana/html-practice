@@ -1,0 +1,747 @@
+body {
+  background-color: rgb(188, 188, 207);
+  height: 2200px;
+}
+.blue {
+  position: sticky;
+  width: 250px;
+  background-color: rgb(3, 3, 24);
+}
+.navbar {
+  width: 80%;
+  margin: auto;
+}
+.sub {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  left: -90px;
+}
+.logo {
+  margin: 2px;
+  display: flex;
+}
+.sub1 {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  left: 80px;
+}
+.search {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+}
+.maindiv {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+}
+.mainblue {
+  display: flex;
+  margin: auto;
+}
+.h6 {
+  text-align: center;
+  position: relative;
+  top: -24px;
+  left: 30px;
+  font-size: 10px;
+  color: white;
+}
+.dis {
+  display: flex;
+  height: 50px;
+}
+.fontf5 {
+  font-size: larger;
+  color: blue;
+}
+.search1 {
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+.seconddiv {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -1805px;
+}
+.h5fo {
+  position: relative;
+  top: 10px;
+}
+.sub2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  position: relative;
+  left: 200px;
+}
+/* baby part  */
+
+.baby {
+  background-color: white;
+  position: relative;
+  top: -1790px;
+  left: 252px;
+  height: 500px;
+  width: 400px;
+  border-radius: 10%;
+}
+.babyimg {
+  position: relative;
+  top: -33px;
+  left: 88px;
+}
+.tem {
+  position: relative;
+  left: 30px;
+}
+.ces {
+  width: fit-content;
+}
+.te {
+  color: blue;
+  width: fit-content;
+  position: relative;
+  top: -10px;
+}
+.pera {
+  width: fit-content;
+  position: relative;
+  top: -30px;
+}
+.time {
+  position: relative;
+  top: -123px;
+  left: 317px;
+  color: blue;
+  width: fit-content;
+  background-color: rgb(202, 224, 231);
+}
+.john {
+  width: fit-content;
+  position: relative;
+  left: 30px;
+  top: -10px;
+  text-align: center;
+}
+.span {
+  background-color: rgb(68, 68, 184);
+  background-color: rgb(68, 68, 184);
+  border-radius: 5px;
+  padding: 4px;
+}
+.pera1 {
+  width: fit-content;
+  position: relative;
+  left: 103px;
+  top: -28px;
+  text-align: center;
+}
+.total {
+  background-color: white;
+  border-radius: 10%;
+  position: relative;
+  top: -2282px;
+  left: 677px;
+  height: 280px;
+  width: 280px;
+}
+.h4to {
+  color: blue;
+}
+.subto {
+  display: flex;
+  justify-content: space-around;
+}
+.imgto {
+  height: 25px;
+  position: relative;
+  top: 10px;
+}
+.h3to {
+  font-size: 20px;
+  top: -20px;
+  position: relative;
+  left: 40px;
+  font-weight: 3000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.imhto1 {
+  position: relative;
+
+  left: 20px;
+}
+.total2 {
+  background-color: white;
+  border-radius: 10%;
+  position: relative;
+  top: -2270px;
+  left: 677px;
+  height: 200px;
+  width: 280px;
+}
+.h4to2 {
+  color: blue;
+}
+.subto2 {
+  display: flex;
+  justify-content: space-around;
+}
+.imgto2 {
+  height: 25px;
+  position: relative;
+  top: 10px;
+}
+.h3to2 {
+  font-size: 20px;
+  top: -20px;
+  position: relative;
+  left: 40px;
+  font-weight: 3000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.imhto2 {
+  position: relative;
+  top: -20px;
+  left: 20px;
+}
+.tosub {
+  display: flex;
+  position: relative;
+  top: -30px;
+  left: 30px;
+  gap: 110px;
+}
+.h5too {
+  color: blue;
+}
+.h4too {
+  background-color: blue;
+}
+.imgto3 {
+  height: 25px;
+  position: relative;
+  top: 10px;
+}
+.h3to3 {
+  font-size: 20px;
+  top: -20px;
+  position: relative;
+  left: 40px;
+  font-weight: 3000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.imhto3 {
+  position: relative;
+  top: -20px;
+  left: 20px;
+}
+.tosub1 {
+  display: flex;
+  justify-content: space-around;
+}
+.tosub2 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -30px;
+}
+.h4too1 {
+  color: blue;
+}
+.total3 {
+  background-color: white;
+  border-radius: 10%;
+  position: relative;
+  top: -2763px;
+  left: 987px;
+  height: 493px;
+  width: 314px;
+}
+.h4to3 {
+  color: blue;
+}
+.subto3 {
+  display: flex;
+  justify-content: space-around;
+}
+/* Daily Earning */
+.imgto4 {
+  height: 25px;
+  position: relative;
+  top: 10px;
+}
+.h3to4 {
+  font-size: 20px;
+  top: -20px;
+  position: relative;
+  left: 40px;
+  font-weight: 3000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.imhto4 {
+  position: relative;
+  top: -20px;
+  left: 15px;
+}
+.tosub11 {
+  position: relative;
+  gap: 10px;
+  left: 40px;
+}
+.tosub3 {
+  position: relative;
+  top: -45px;
+  left: 180px;
+}
+.h4too2 {
+  color: blue;
+  height: 0px;
+}
+.h4too3 {
+  height: 0px;
+}
+.total4 {
+  background-color: white;
+  border-radius: 10%;
+  position: relative;
+  top: -2739px;
+  left: 249px;
+  height: 493px;
+  width: 340px;
+}
+.h4to4 {
+  color: blue;
+}
+.subto4 {
+  display: flex;
+  justify-content: space-around;
+}
+/* Total Appoinment  */
+.total5 {
+  background-color: white;
+  border-radius: 10%;
+  position: relative;
+  top: -3231px;
+  left: 611px;
+  height: 493px;
+  width: 380px;
+}
+.subto5 {
+  display: flex;
+  justify-content: space-around;
+}
+.h4to5 {
+  color: blue;
+}
+.imgto5 {
+  height: 25px;
+  position: relative;
+  top: 10px;
+}
+.h3to5 {
+  font-size: 20px;
+  top: -20px;
+  position: relative;
+  left: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.fi {
+  display: flex;
+  margin: 1%;
+}
+.imgfi {
+  height: 50px;
+}
+.h4fi {
+  position: relative;
+  top: -15px;
+  left: 10px;
+}
+.pfi {
+  position: relative;
+  left: -73px;
+  top: 10px;
+  color: blue;
+}
+.pi00 {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: -319px;
+  left: 212px;
+}
+.pi {
+  color: gray;
+}
+.btn {
+  border: none;
+  position: relative;
+  color: white;
+  top: 10px;
+  background-color: #3333ef;
+  height: 26px;
+  border-radius: 5px;
+}
+
+.btn1 {
+  border: none;
+  position: relative;
+  color: white;
+  top: 17px;
+  background-color: yellow;
+  height: 26px;
+  border-radius: 5px;
+  width: 64px;
+}
+.btn2 {
+  border: none;
+  position: relative;
+  color: white;
+  top: 10px;
+  background-color: yellowgreen;
+  height: 26px;
+  border-radius: 5px;
+}
+.btn3 {
+  border: none;
+  position: relative;
+  color: white;
+  top: 10px;
+  background-color: skyblue;
+  height: 26px;
+  border-radius: 5px;
+}
+.btn4 {
+  border: none;
+  position: relative;
+  color: white;
+  top: 10px;
+  background-color: rgb(204, 34, 161);
+  height: 26px;
+  border-radius: 5px;
+}
+.pi01 {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: -305px;
+  left: 212px;
+}
+.pi02 {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: -290px;
+  left: 212px;
+}
+.pi03 {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: -274px;
+  left: 212px;
+}
+.pi04 {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: -250px;
+  left: 212px;
+}
+/* User by Country */
+.totall {
+  background-color: white;
+  border-radius: 10%;
+  position: relative;
+  top: -3720px;
+  left: 1014px;
+  height: 490px;
+  width: 287px;
+}
+.h4too {
+  color: blue;
+}
+.subtoo {
+  display: flex;
+  justify-content: space-around;
+}
+.imgtoo {
+  height: 25px;
+  position: relative;
+  top: 10px;
+}
+.h3too {
+  font-size: 20px;
+  top: -20px;
+  position: relative;
+  left: 40px;
+  font-weight: 3000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.imhtol {
+  position: relative;
+  left: 20px;
+}
+/* our total Growth */
+.totalg {
+  background-color: white;
+  border-radius: 5%;
+  position: relative;
+  top: -3701px;
+  left: 251px;
+  height: 490px;
+  width: 1046px;
+}
+.h4tog {
+  color: blue;
+  position: relative;
+  left: -190px;
+  top: 10px;
+}
+.subtog {
+  display: flex;
+  justify-content: space-around;
+}
+.imgtog {
+  position: relative;
+  left: 158px;
+  height: 30px;
+  top: 30px;
+}
+.h4g {
+  text-align: center;
+}
+.h3tog {
+  font-size: 20px;
+  top: -20px;
+  position: relative;
+  left: 40px;
+  font-weight: 3000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.imhtog {
+  position: relative;
+  left: 20px;
+  top: 46px;
+  height: 232px;
+  width: 950px;
+}
+/* resent activity */
+
+.h3rec {
+  font-size: 20px;
+  top: -20px;
+  position: relative;
+  left: 40px;
+  font-weight: 3000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.imgrec {
+  position: relative;
+  left: 40px;
+  height: 30px;
+  top: 20px;
+}
+.recsub {
+  display: flex;
+  justify-content: space-around;
+}
+.rec {
+  background-color: white;
+  border-radius: 5%;
+  position: relative;
+  top: -3678px;
+  left: 251px;
+  height: 500px;
+  width: 350px;
+}
+.rech4 {
+  color: blue;
+  position: relative;
+  left: -15px;
+  top: 10px;
+}
+.chatsub {
+  position: relative;
+  top: -20px;
+  left: 40px;
+}
+
+.p {
+  margin: -14px;
+  font-size: 15px;
+  position: relative;
+  left: 15px;
+}
+
+/* chat */
+
+.imgchat {
+  position: relative;
+  top: -40px;
+  height: 391px;
+  width: 300px;
+}
+.h3ret {
+  font-size: 20px;
+  top: -20px;
+  position: relative;
+  left: 40px;
+  font-weight: 3000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.imgret {
+  position: relative;
+  left: 40px;
+  height: 30px;
+  top: 20px;
+}
+.recsut {
+  display: flex;
+  justify-content: space-around;
+}
+.recchat {
+  background-color: white;
+  border-radius: 5%;
+  position: relative;
+  top: -4176px;
+  left: 620px;
+  height: 500px;
+  width: 323px;
+}
+.recht {
+  color: blue;
+  position: relative;
+  left: -15px;
+  top: 10px;
+}
+/* our to do list */
+.h3red {
+  font-size: 20px;
+  top: -20px;
+  position: relative;
+  left: 40px;
+  font-weight: 3000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.imgtodo {
+  position: relative;
+  left: 40px;
+  height: 30px;
+  top: 20px;
+}
+.todosub {
+  display: flex;
+  justify-content: space-around;
+}
+.todo {
+  background-color: white;
+  border-radius: 5%;
+  position: relative;
+  top: -4674px;
+  left: 961px;
+  height: 500px;
+  width: 340px;
+}
+.recht1 {
+  color: blue;
+  position: relative;
+  left: -15px;
+  top: 10px;
+}
+.span1 {
+  color: blue;
+}
+.pl {
+  position: relative;
+  left: 30px;
+}
+.file {
+  position: relative;
+  top: -30px;
+  left: 30px;
+}
+.imgpg {
+  position: relative;
+  left: 20px;
+  top: 20px;
+}
+.fih4 {
+  position: relative;
+  left: 67px;
+  width: fit-content;
+  top: -38px;
+}
+.fip {
+  position: relative;
+  left: 67px;
+  width: fit-content;
+  top: -57px;
+  font-size: small;
+}
+.spann {
+  background-color: #3333ef;
+  color: white;
+}
+.p2 {
+  position: relative;
+  left: 30px;
+  top: -91px;
+}
+.h5p {
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+  top: -103px;
+  left: 40px;
+}
+.pt {
+  position: relative;
+  left: 44px;
+  top: -116px;
+  width: fit-content;
+}
+.p3 {
+  position: relative;
+  left: 30px;
+  top: -91px;
+}
+.h5pp {
+  height: fit-content;
+  width: fit-content;
+  position: relative;
+  top: -103px;
+  left: 40px;
+}
+.pt1 {
+  position: relative;
+  left: 44px;
+  top: -116px;
+  width: fit-content;
+}
+.lstchat12 {
+  position: relative;
+  top: -30px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  top: -300px;
+  background-color: white;
+}

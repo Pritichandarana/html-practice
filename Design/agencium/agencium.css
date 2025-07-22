@@ -1,0 +1,125 @@
+.firstdiv {
+  background-image: url("./images/bg-1.jpg");
+  height: 1000px;
+  width: 1333px;
+}
+.firstmain {
+  display: flex;
+  justify-content: space-around;
+}
+
+#img1 {
+  position: relative;
+  left: -45px;
+  height: 45px;
+  top: 15px;
+}
+.second {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  color: white;
+  position: relative;
+  left: 100px;
+  height: 100px;
+  width: 200px;
+}
+.but1 {
+  background-color: red;
+  color: white;
+  height: 70px;
+  width: 150px;
+  border: red;
+  font-size: 20px;
+  position: relative;
+  left: 125px;
+}
+.headdiv {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 110px;
+  color: white;
+  gap: 200px;
+  height: 500px;
+}
+.h1 {
+  font-size: 80px;
+  width: 550px;
+}
+
+.b {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -324px;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  height: 50px;
+}
+.secondmain {
+  background-image: url("./IMAGES//bg-1.jpg");
+  height: 1000px;
+  width: 1333px;
+}
+.c {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  height: 700px;
+  width: 900px;
+  position: relative;
+  top: 30px;
+  left: 200px;
+  /* right: 200px; */
+}
+.d {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.forthdiv {
+  background-image: url("./IMAGES/bg-1.jpg");
+  height: 1000px;
+  width: 1333px;
+}
+.e {
+  display: flex;
+  justify-content: space-around;
+}
+.ee {
+  color: white;
+
+  border-right: 2px solid gray;
+}
+.fifthdiv {
+  background-image: url("./IMAGES/bg-1.jpg");
+  height: 1000px;
+  width: 1333px;
+}
+.fifthh1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 100px;
+}
+.subdiv {
+  display: flex;
+  justify-content: space-around;
+}
+.su {
+  height: 300px;
+  width: 300px;
+  color: white;
+  border: 2px solid gray;
+}
+.su3 {
+  position: relative;
+  top: 150px;
+}
+.imgsu {
+  position: relative;
+  left: 50px;
+  top: 20px;
+}

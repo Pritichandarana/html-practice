@@ -1,0 +1,712 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainhead {
+  background-image: url('./images/landing-image-1\ \(1\).jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 120px; /* Wider spacing for desktop */
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.menu {
+  display: flex;
+  gap: 50px;
+}
+
+.menu h3 {
+  font-size: 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+  transition: color 0.3s;
+  color: white;
+}
+
+.menu h3:hover {
+  color: #ddd;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.headline {
+  font-size: 80px;
+  letter-spacing: 8px;
+  margin: 0;
+}
+
+.subtext {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.purbut {
+  margin-top: 40px;
+  background-color: #222;
+  color: white;
+  padding: 14px 40px;
+  border: none;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.purbut:hover {
+  background-color: #444;
+}
+
+
+/* Sections */
+.section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.section h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.section p {
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+/* Image Grid */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-grid img {
+  max-width: 100%;
+  width: 300px;
+  height: auto;
+  gap:65px;
+  padding: 33px;
+  /* border-radius: 8px; */
+}
+
+
+.single-project-section {
+  background-image: url('https://assemble.qodeinteractive.com/wp-content/uploads/2016/07/landing-parallax-1.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  color: white;
+}
+
+.single-project-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.single-project-header h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.single-project-header p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.single-project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.single-project-gallery img {
+  height: 250px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.single-project-gallery img:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .headline {
+    font-size: 50px;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+/* Portfolio Layouts Section */
+.portfolio-layouts {
+  padding: 50px 20px;
+}
+
+/* Header */
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.portfolio-header h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+.portfolio-header p {
+  font-size: 15px;
+}
+
+/* Image Grid */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.portfolio-grid img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Responsive Feature Section */
+.responsive-feature {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.responsive-image img {
+  height: 350px;
+  width: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.responsive-content {
+  max-width: 500px;
+}
+
+.responsive-content h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 15px;
+}
+
+.responsive-content p {
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.responsive-content button {
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  height: 30px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.responsive-content button:hover {
+  background-color: #333;
+}
+
+/* Responsive Behavior */
+@media (max-width: 768px) {
+  .responsive-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .responsive-feature {
+    flex-direction: column;
+  }
+
+  .responsive-content {
+    text-align: center;
+  }
+
+  .responsive-content p {
+    text-align: center;
+  }
+}
+
+
+
+
+/* Menu Section */
+.menu-section {
+  background-image: url('https://assemble.qodeinteractive.com/wp-content/uploads/2016/07/landing-parallax-2.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  color: white;
+}
+
+/* Header */
+.menu-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.menu-header h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+.menu-header p {
+  font-size: 15px;
+  text-align: center;
+}
+
+/* Image Grid */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 30px;
+}
+
+.image-grid img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+}
+
+
+/* Showcase Section */
+.showcase-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #f8f8f8; /* Light grey background like in the image */
+}
+
+/* Text Side */
+.showcase-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.showcase-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.showcase-text button {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #222;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.showcase-text button:hover {
+  background-color: #000;
+}
+
+/* Image Side */
+.showcase-image img {
+  width: 500px;
+  height: 350px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+/* Hover Section Container */
+.hover-section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+/* Title */
+.hover-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.hover-title h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 36px;
+}
+
+/* Description */
+.hover-description {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.hover-description p {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Images Grid */
+.hover-images {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hover-images img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Hover Effect */
+.hover-images img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+/* Section Wrapper */
+.inner-pages-section {
+  background-color: rgb(236, 236, 236);
+  padding: 60px 20px;
+}
+
+/* Title */
+.inner-pages-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.inner-pages-title h1 {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 36px;
+}
+
+/* Description */
+.inner-pages-description {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.inner-pages-description p {
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* Image Grid */
+.inner-pages-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.inner-pages-grid img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover Effect */
+.inner-pages-grid img:hover,
+.inner-pages-last-row img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Last Row with Left Alignment */
+.inner-pages-last-row {
+  display: flex;
+  justify-content: flex-start;
+  gap: 93px;
+  padding-left: 50px;
+  max-width: 1333px;
+  margin: 0 auto 50px auto;
+}
+
+.inner-pages-last-row img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+
+
+
+/* Blog Section */
+.blog-section {
+  padding: 50px 20px;
+}
+
+/* Title */
+.blog-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.blog-title h1 {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 36px;
+}
+
+/* Description */
+.blog-description {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.blog-description p {
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* Image Grid */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+.blog-grid img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-grid img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+
+/* WooCommerce Section */
+.woocommerce-section {
+  background-color: rgb(236, 236, 236);
+  padding: 50px 20px;
+}
+
+/* Title */
+.woocommerce-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.woocommerce-title h1 {
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 36px;
+}
+
+/* Description */
+.woocommerce-description {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.woocommerce-description p {
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.8;
+}
+
+/* Image Grid */
+.woocommerce-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+.woocommerce-grid img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.woocommerce-grid img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+
+
+/* Section Styling */
+.key-features {
+  padding: 60px 120px;  /* top-bottom 60px, left-right 120px */
+  text-align: center;
+}
+.key-features h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.features-subtitle {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+/* Grid Layout */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 40px;
+}
+
+/* Feature Item */
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.feature-item img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+}
+
+.feature-content h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.feature-content p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .key-features {
+    padding: 40px 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .key-features {
+    padding: 30px 20px;
+  }
+}
+.footer-section {
+  background-color: #f8f8f8;  /* Light gray background */
+  text-align: center;
+  padding: 60px 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-section h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.footer-section p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.purchase-btn {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 12px 40px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.purchase-btn:hover {
+  background-color: #444;
+}
+
+
+
+
+

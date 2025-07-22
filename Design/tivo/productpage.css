@@ -1,0 +1,337 @@
+body {
+  background-color: rgb(188, 188, 207);
+  height: 5000px;
+}
+.blue {
+  position: sticky;
+  width: 250px;
+  background-color: rgb(3, 3, 24);
+}
+.navbar {
+  width: 80%;
+  margin: auto;
+}
+.sub {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  left: -90px;
+}
+.logo {
+  margin: 2px;
+  display: flex;
+}
+.sub1 {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  left: 80px;
+}
+.search {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+}
+.maindiv {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  width: 100%;
+  height: fit-content;
+  background-color: white;
+}
+.mainblue {
+  display: flex;
+  margin: auto;
+}
+.h6 {
+  text-align: center;
+  position: relative;
+  top: -24px;
+  left: 30px;
+  font-size: 10px;
+  color: white;
+}
+.dis {
+  display: flex;
+  height: 50px;
+}
+.fontf5 {
+  font-size: larger;
+  color: blue;
+}
+.search1 {
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  position: relative;
+  left: 10px;
+  top: 30px;
+}
+/* product part */
+.seconddiv {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -1805px;
+}
+.h5fo {
+  position: relative;
+  top: 10px;
+}
+.sub2 {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  position: relative;
+  left: 200px;
+}
+/* Icons part */
+.mainico {
+  width: 1221px;
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  position: relative;
+  top: -1800px;
+
+  left: 70px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+}
+.word {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+.icimg {
+  height: 35px;
+}
+.ibtn {
+  background-color: rgb(215, 228, 233);
+  height: 30px;
+  position: relative;
+  top: 6px;
+  color: blue;
+  left: 120px;
+  border: none;
+}
+.h4i {
+  position: relative;
+  left: 100px;
+}
+.imgpart {
+  position: relative;
+  top: -1804px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  width: 400px;
+  left: 230px;
+  padding: 35px;
+  border-radius: 4%;
+}
+.imgs {
+  height: 350px;
+  width: 300px;
+  position: relative;
+  left: 10px;
+}
+
+.imgs2 {
+  height: 120px;
+  width: 100px;
+  margin: 20px;
+}
+.imgsub1 {
+  position: relative;
+  left: 12px;
+}
+/* second part */
+.brand {
+  position: relative;
+  top: -2374px;
+  left: 720px;
+  background-color: white;
+  width: 593px;
+  height: 280px;
+  border-radius: 5%;
+}
+.h1b {
+  position: relative;
+  left: 60px;
+}
+.check {
+  position: relative;
+  left: 40px;
+  margin: 10px;
+  color: gray;
+}
+/* service part  */
+.ser {
+  background-color: white;
+  position: relative;
+  top: -2350px;
+  width: 600px;
+  left: 720px;
+  border-radius: 5%;
+}
+.fr {
+  position: relative;
+  left: 70px;
+  top: -16px;
+  width: fit-content;
+}
+.freetime {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  top: 30px;
+  left: 35px;
+}
+.fre {
+  width: fit-content;
+  position: relative;
+  top: -30px;
+  left: 70px;
+  color: gray;
+}
+/* women pink shirt */
+.women {
+  background-color: white;
+  height: 515px;
+  width: 1076px;
+  position: relative;
+  top: -2321px;
+  left: 230px;
+}
+.wo {
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+.po {
+  position: relative;
+  top: 21px;
+  left: 45px;
+  color: blue;
+}
+.po1 {
+  position: relative;
+  top: -15px;
+  left: 130px;
+  color: gray;
+}
+.wobtn {
+  background-color: rgb(230, 157, 24);
+  border: none;
+  position: relative;
+  top: -10px;
+  left: 45px;
+  width: 120px;
+  height: 40px;
+  border-radius: 30%;
+  color: white;
+  font-size: larger;
+}
+.span1 {
+  color: gray;
+}
+.part {
+  display: flex;
+  justify-content: space-around;
+}
+.woo {
+  color: gray;
+  position: relative;
+  left: 30px;
+}
+.svg1 {
+  height: 40px;
+  width: 30px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  top: -300px;
+  background-color: white;
+}
+.sh {
+  position: relative;
+  left: -100px;
+}
+.svgadd {
+  height: 20px;
+  width: 20px;
+}
+.btnadd {
+  height: 50px;
+  width: 150px;
+  position: relative;
+  left: 40px;
+  color: white;
+  border: none;
+  border-radius: 20%;
+  background-color: rgb(38, 97, 121);
+}
+.btnfav {
+  height: 50px;
+  width: 150px;
+  position: relative;
+  left: 40px;
+  color: white;
+  border: none;
+  border-radius: 20%;
+  background-color: rgb(233, 49, 126);
+}
+.logo1 {
+  display: flex;
+  gap: 20px;
+  /* justify-content: space-around;
+   */
+}
+.share {
+  display: flex;
+  justify-content: space-around;
+}
+/* detail about cloths */
+.subde {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  gap: 20px;
+  padding: 1%;
+}
+.p1 {
+  color: gray;
+  font-size: larger;
+  position: relative;
+  left: 30px;
+}
+.p2 {
+  color: gray;
+  font-size: larger;
+  position: relative;
+  left: 30px;
+}
+.feb {
+  position: relative;
+  left: 10px;
+  background-color: blue;
+  height: 30px;
+  color: white;
+  align-items: center;
+}
+.detail1 {
+  position: relative;
+  top: -2288px;
+  height: 300px;
+  width: 1073px;
+  left: 229px;
+  background-color: white;
+}
